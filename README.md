@@ -1,7 +1,7 @@
 # [Home of David Lemarier](https://lemarier.ca) [![travis][travis-image]][travis-url]
 
-[travis-image]: https://img.shields.io/travis/DavidLemarier/www.lemarier.ca.svg?style=flat
-[travis-url]: https://travis-ci.org/DavidLemarier/www.lemarier.ca
+[travis-image]: https://img.shields.io/travis/DavidLemarier/lemarier.ca.svg?style=flat
+[travis-url]: https://travis-ci.org/DavidLemarier/lemarier.ca
 
 Copyright (c) David Lemarier
 
