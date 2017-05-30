@@ -1,11 +1,11 @@
-# [Home of Feross Aboukhadijeh](https://feross.org) [![travis][travis-image]][travis-url]
+# [Home of David Lemarier](https://lemarier.ca) [![travis][travis-image]][travis-url]
 
-[travis-image]: https://img.shields.io/travis/feross/feross.org/master.svg?style=flat
-[travis-url]: https://travis-ci.org/feross/feross.org
+[travis-image]: https://img.shields.io/travis/DavidLemarier/www.lemarier.ca.svg?style=flat
+[travis-url]: https://travis-ci.org/DavidLemarier/www.lemarier.ca
 
-Copyright (c) Feross Aboukhadijeh
+Copyright (c) David Lemarier
 
-Hi, I'm Feross Aboukhadijeh and this is the source code for my blog, [https://feross.org](https://feross.org). Feel free to browse the source, fork, and [ask me questions](https://twitter.com/feross).
+Hi, I'm David Lemarier and this is the source code for my blog, [https://lemarier.ca](https://lemarier.ca). Feel free to browse the source, fork, and [ask me questions](https://twitter.com/DavidLemarier).
 
 
 ## How it's built
@@ -23,11 +23,7 @@ I host the actual site on my own server, since I have a Jekyll plugin (and GitHu
 
 ## Deploying
 
-I wrote a few simple rake tasks for deploying. Take a look at the `Rakefile` -- it's pretty self-explanatory.
-
-I serve the site with nginx and run the Node.js app using Supervisord (in case the app decides to crash).
-
-That's pretty much it.
+To be completed
 
 ## Install prerequisites
 
@@ -41,5 +37,5 @@ sudo gem install gsl
 
 ## The blog design
 
-If you decided to fork, please create your own blog design, don't use mine. I don't want to see fifty other blogs that look the same as mine. Thanks for understanding!
+To be changed
 

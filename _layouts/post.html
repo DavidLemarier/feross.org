@@ -9,7 +9,7 @@ layout: layout
   </h1>
 
   <div class="byline">
-    <span>By <a href="/about/" title="Feross Aboukhadijeh">Feross Aboukhadijeh</a></span>
+    <span>By <a href="/about/" title="David Lemarier">David Lemarier</a></span>
     <time datetime="{{page.date | date: "%Y-%m-%d"}}">{{ page.date | date: "%B %e, %Y" }}</time>
     <span class="views" data-slug="{{ page.url }}"></span>
     Tagged with
@@ -34,60 +34,51 @@ layout: layout
 <section class="meta">
   <h3>
     Discussion, links, and tweets
-    <a class="rss" href="https://feross.org/atom.xml" title="Subscribe to the Feross.org Feed">
+    <a class="rss" href="https://lemarier.ca/atom.xml" title="Subscribe to the Lemarier.ca Feed">
       <img src="/images/rss.png" alt="RSS Feed Icon" />
     </a>
   </h3>
 
   <section class="copy">
-    <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=feross', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+    <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=lemarier', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
       <p>
 
-        <a href="https://twitter.com/feross" class="avatar">
-          <img src="/images/F.png" height="50" width="50" alt="Feross Aboukhadijeh" />
+        <a href="https://twitter.com/DavidLemarier" class="avatar">
+          <img src="/images/d.jpg" height="50" width="50" alt="David Lemarier" />
         </a>
-        Hey, thanks for reading! I'm <a href="/about/">Feross Aboukhadijeh</a>, a programmer, designer, teacher, and mad scientist. I am currently building <a href="https://webtorrent.io">WebTorrent</a>, a streaming BitTorrent client for the browser, powered by WebRTC. In my free time, I work on <a href="https://www.apstudynotes.org/" title="AP Notes">StudyNotes</a>, a website to help students study better and <a href="https://www.apstudynotes.org/essays/" title="College Essays">get into college</a>.
+        Hey, thanks for reading! I'm <a href="/about/">David Lemarier</a>
       </p>
 
       {% if page.hn %}<p>You can discuss, upvote, or poke fun at this post over at <a href="{{ page.hn }}">Hacker News</a>.</p>{% endif %}
       <p>
-        If you enjoyed this article, you should <a href="https://twitter.com/feross">follow me on Twitter</a> or sign up to get an email whenever I write something new:
+        If you enjoyed this article, you should <a href="https://twitter.com/DavidLemarier">follow me on Twitter</a> or sign up to get an email whenever I write something new:
 
         <input type="email" name="email" placeholder="email@email.com"/>
-        <input type="hidden" value="feross" name="uri"/>
+        <input type="hidden" value="lemarier" name="uri"/>
         <input type="hidden" name="loc" value="en_US"/>
         <input type="submit" value="Subscribe" />
       </p>
     </form>
 
-    <p>
-      Share this article with your friends:
-    </p>
-
-    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://{% if page.old %}www.{% endif %}feross.org{{ page.url }}" data-text="{{ page.title | xml_escape }}" data-via="feross" data-related="feross">Tweet</a>
-
-    <div class="fb-like" data-href="http://feross.org{{ page.url }}" data-width="400" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
-
   </section>
-
 
   {% if page.previous.url %}
     <a class="prev" href="{{ page.previous.url }}" title="Previous Post: {{ page.previous.title }}">{{ page.previous.title }}</a>
   {% endif %}
+
   {% if page.next.url %}
     <a class="next" href="{{ page.next.url }}" title="Next Post: {{ page.next.title }}">{{ page.next.title }}</a>
   {% endif %}
 
-
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'http://feross.org{{ page.url }}'
+      this.page.url = 'https://lemarier.ca{{ page.url }}'
     }
     window.addEventListener('orientationchange', function () {
       DISQUS.reset({ reload: true })
     }, false)
   </script>
 
-  <script async src="//feross-org.disqus.com/embed.js"></script>
+  <script async src="//lemarier-ca.disqus.com/embed.js"></script>
 </section>

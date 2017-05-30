@@ -3,18 +3,18 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
-  <title type="text">Feross.org</title>
+  <title type="text">Lemarier.ca</title>
   <subtitle type="text">Pure concentrated awesome.</subtitle>
 
   <updated>{{ site.time | date_to_xmlschema }}</updated>
 
-  <link rel="alternate" type="text/html" href="https://feross.org" />
-  <id>https://feross.org</id>
-  <link rel="self" type="application/atom+xml" href="https://feross.org/atom.xml" />
+  <link rel="alternate" type="text/html" href="https://lemarier.ca" />
+  <id>https://lemarier.ca</id>
+  <link rel="self" type="application/atom+xml" href="https://lemarier.ca/atom.xml" />
 
   <author>
-    <name>Feross Aboukhadijeh</name>
-    <uri>https://feross.org</uri>
+    <name>David Lemarier</name>
+    <uri>https://lemarier.ca</uri>
   </author>
 
   {% for post in site.posts limit: 20 %}
@@ -22,14 +22,14 @@ layout: null
   <entry>
     <title>{{ post.title | xml_escape }}</title>
     <author>
-      <name>Feross Aboukhadijeh</name>
-      <uri>https://feross.org</uri>
+      <name>David Lemarier</name>
+      <uri>https://lemarier.ca</uri>
     </author>
-    <link rel="alternate" type="text/html" href="https://feross.org{{ post.url }}"/>
-    <id>https://feross.org{{ post.id }}</id>
+    <link rel="alternate" type="text/html" href="https://lemarier.ca{{ post.url }}"/>
+    <id>https://lemarier.ca{{ post.id }}</id>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <summary type="html"><![CDATA[{{ summary }}]]></summary>
-    <content type="html" xml:base="https://feross.org{{ post.url }}"><![CDATA[{% if post.dynamic or post.demo %}<p><em><strong>This blog post contains JavaScript and other dynamic content that will not display correctly in most RSS readers. I recommend <a href="https://feross.org{{ post.url }}">reading this post</a> directly in your web browser.</strong></em></p>{% endif %}{{ post.content }}]]></content>
+    <content type="html" xml:base="https://lemarier.ca{{ post.url }}"><![CDATA[{% if post.dynamic or post.demo %}<p><em><strong>This blog post contains JavaScript and other dynamic content that will not display correctly in most RSS readers. I recommend <a href="https://lemarier.ca{{ post.url }}">reading this post</a> directly in your web browser.</strong></em></p>{% endif %}{{ post.content }}]]></content>
   </entry>
   {% endfor %}
 

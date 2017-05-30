@@ -3,3 +3,5 @@ _drafts
 secret.js
 css/main.css
 hacks/
+node_modules
+.DS_Store
