@@ -1,65 +1,75 @@
 ==================================================================
-https://keybase.io/feross
+https://keybase.io/phnz
 --------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am an admin of http://feross.org
-  * I am feross (https://keybase.io/feross) on keybase.
-  * I have a public key with fingerprint 943C B6B5 0E7D 0C89 117B  D3BF 2561 DA99 9430 52BC
+  * I am an admin of https://lemarier.ca
+  * I am phnz (https://keybase.io/phnz) on keybase.
+  * I have a public key with fingerprint A5A5 C0A2 5E6F B450 004D  E2CE B79C 03F6 9557 EC55
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "fingerprint": "943cb6b50e7d0c89117bd3bf2561da99943052bc",
+            "eldest_kid": "0120922fc7a7a292f26400b952ec3ac0c58a8d0e81084401787f07221a1a070a1a040a",
+            "fingerprint": "a5a5c0a25e6fb450004de2ceb79c03f69557ec55",
             "host": "keybase.io",
-            "key_id": "2561da99943052bc",
-            "uid": "a44561a91d88147b6089681e6b649c00",
-            "username": "feross"
+            "key_id": "b79c03f69557ec55",
+            "kid": "010179ceb6ced84b4470f9f0c4eae55964ab344d69d2a2e9d933052b1a5d71e1e5530a",
+            "uid": "a828c60606e253f8bbcc3943b50e4119",
+            "username": "phnz"
         },
         "service": {
-            "hostname": "feross.org",
-            "protocol": "http:"
+            "hostname": "lemarier.ca",
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1396052018,
+    "ctime": 1496083648,
     "expire_in": 157680000,
-    "prev": "50afbb59d952a35deaf5a92bb2e2c8f2a2690efe4bc0499d2b5312c855b5b2ae",
+    "prev": "90e45ab0679be1140953f9d2fced1b3f88a483e37c9773c79a722667ed36c92e",
     "seqno": 8,
     "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v0.1.1
+Version: Keybase OpenPGP v2.0.71
 Comment: https://keybase.io/crypto
 
-yMHiAnicbVFfSBRbGN8tddWQJBNvhC8TacVqM7Mzs3O2uHCvomiEXctQ3NjmzJxZ
-B7eZdWZ2VVbFbAWRqw+l6L1BDz4YCFc0a8sQ8paREmIPSSBco5RE0UqwG3gtPSO3
-h6Dz8nF+f8/hm0jZa0u2HxXm/ugiS8fsz8fXQrbzXCodIaAm1ROeCFGNdoesqH6k
-B3VFNQkPARiXCDnIksgtkSIPKMoNJReUaZajJAEAzJMsDUXCSVRphuXAMVAwUK6i
-YQxffIqE0R/oQ7uEwDCYEgAl8TzFuCFH8oDjKcRBjgEiSVpCA+mqcAVhtYx0zTCI
-RieBsbAiYiyyW/wdn6vpfuwL6pqpiVoA41WmGfRYNrM+aOlqEfT9n+CDiirhP2ND
-GOmGoqmEh8JK0VSsSMoFOPxikuKdBKoLKjryKZaCdXM8iY9Vg8I4kiUFGUIWSICl
-BRcrIUFmBUBDSCNa5GVaoDlAIhkxUCQZACQasi4KMywLWUgLCPcbqEbVCA9uMgU/
-jjQUvyqYIR0RjY/HvXE2e7ItIX6PtTVbclLqt10uZju2y0I//Zx1/GFB3yzzS1tC
-3ui9obLM+M/V59JPDT6JTM2MzV1cT2zKQPIJYzDQec0u/s70g+W835biRtXyvx/k
-VHj1nNuvA+a88+3JgVigtHNGZ7uLBlof/Xun79hhqX1p4VBvSmHzQkPxVLSi6EWg
-Y5te/q+kZ/hqwsHUr3pi66+3Lk1ub/a6iNGNxQs9H4YONFSG12uI8th1bl/3QEts
-+q+pjZeb8tiN9i9zIyurXSNv3kl/ioWvikM3nXX7vZWOI7Ud0fy7H8f5aHg15vjU
-snymIi1jbStzPt4wnq1sTqZldxa0NU//s9U08X5mFl0eTvc6zj69n9Rf4j2dnxWF
-O1Z1E8s=
-=7Rt4
+yMNmAnicbVJ9TJVVGL+oXOhycSCD3SJRX4RKAc/7/Z4rlIMS1lylaMzNuLwf5728
+wn3v5X6ACsQYhLY1Z2ToQhAGbZeC/jCyNbGBQQxMMlCnfBWjOVdXFkxbt9rovEz/
+a2c7Z+d5fs/v+T2/c4Zj15ssEV9fWP/nx0WhQxHXh5oDpsMZ5YPVhORWjhP2aqIM
+rR2oXEE+v6NMUwg7AUgKQIpSZV7kRQpSKsUxAEiQpZBMizKQWUEUFIAEEggMA0he
+4FXAUxQpkiLggbEzQCQyCFXTncjr8Wq6H9OKrMjKQKRYxKkSwwIAGAVRMpJ4KANa
+5SDL8khmWVxY6vYZFVicJPpQlubGMXxxrMn7H/xT3VgLxIScjBSBkRiGBypUgcwg
+EbEs5BhRohlG4aBCiRSCCqRpwFISKbIKTyISY+g13YE1OlGgBJkDeCGKpVVBkmSZ
+hgwtsQAxJAkNoA95ddGFMNpTqp8gajMIHKnUZGSYakzxJFuOXKJXQ94s2eD3eN1+
+t+wux4lSv9/jsxuF/uMeA1mFJMcTDoek6Qq2EFdUIq9Pc+uEncRI2a8ZpCQDOSDQ
+HCNkEOiYR/Mih2YgWJ4TsLnA6IMqMSXEellRAhwPJUSSDIB4HOyBim0iJTyZIDIC
+jWhehjxPyzwU8WNyHI8UmpMhhQhjqgrdTdhxJ7/oxJQ+zamL/oAXEbXXho5sMEVY
+TObIdcbXMlmeiXv64YYW40z98gYtDxbDv229fX+MVK5sK2wUct9WlGfzvrhsG26i
+zNsPdLpGA7eq4tuPVC9FvGturp/7Mb7hetH7P4RnB5K62Y03PDPLWm9427mDA23O
+YGLwtpl6031POzmwv3XYOn3p8uOWq9GfjJ6/8YutJEzsfLUnejzdvNCh1fZfDMCK
+m6eKkz9KzOoseiGhqaAqXLGam76zY8U5OPtv7plf7+VkPvqQGPctrNRBOBMzOXZm
+IX+5Zm9gaSTtn6MnUqPbTrcTU1sXa+7Ez5dmT7bH7JqzjlH1x14hUmblS7ce5keZ
+x13d9Q9A8cwb5tVH+mRtwVQwrTFd5V/u6/u2Ky3T2pA3HrBHjuq2pJDvomPmp5Pz
+bw0e7Oi1DbectW4OyF2t70Utr5rPT6XcvZ9ttsh3CntWA/uSzlLLY1+m9iTnNZ4r
+Dg9NeusS3Ts2B3OPtoZ391MNhcmLrsbaqdOPu2JqPm18ONF288UdHWpuvmn71Yld
+7TnP7Svomrigp772V7ZlJaq7KzK/bmZL0m/WlJjd053ubnY6nJ2gF+jrCLrMOVKQ
+cSXWum5L0jXPd/On9k59owYPHHJeef52ND8X7XknPye0dD/2s9+XikfmE+JS9jAP
+IjbdtbmaMpvC2d97PhhiQ5a2nk0iWNx6+KvVUMv+wEtZez4PlcT+PBIueT1YE9+M
+Nrqb/wN0zLTQ
+=3PbH
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/feross
+View my publicly-auditable identity here: https://keybase.io/phnz
 
 ==================================================================
