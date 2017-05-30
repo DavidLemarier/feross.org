@@ -33,7 +33,7 @@ layout: layout
 
 <section class="meta">
   <h3>
-    Discussion, links, and tweets
+    Discussion and links
     <a class="rss" href="https://lemarier.ca/atom.xml" title="Subscribe to the Lemarier.ca Feed">
       <img src="/images/rss.png" alt="RSS Feed Icon" />
     </a>
@@ -46,19 +46,13 @@ layout: layout
         <a href="https://twitter.com/DavidLemarier" class="avatar">
           <img src="/images/d.jpg" height="50" width="50" alt="David Lemarier" />
         </a>
-        Hey, thanks for reading! I'm <a href="/about/">David Lemarier</a>
+        Hey, thanks for reading! I'm <a href="/about/">David Lemarier</a>, {{site.data.strings.about.me}}.
       </p>
 
       {% if page.hn %}<p>You can discuss, upvote, or poke fun at this post over at <a href="{{ page.hn }}">Hacker News</a>.</p>{% endif %}
       <p>
-        If you enjoyed this article, you should <a href="https://twitter.com/DavidLemarier">follow me on Twitter</a> or sign up to get an email whenever I write something new:
-
-        <input type="email" name="email" placeholder="email@email.com"/>
-        <input type="hidden" value="lemarier" name="uri"/>
-        <input type="hidden" name="loc" value="en_US"/>
-        <input type="submit" value="Subscribe" />
+        If you enjoyed this article, you should <a href="https://twitter.com/DavidLemarier">follow me on Twitter</a>
       </p>
-    </form>
 
   </section>
 
