@@ -1,15 +1,15 @@
 ---
-layout: layout
 title: David Lemarier Bio
+profile: true
 class: about
 ---
+<div>
+  <h1>Nice to meet you.</h1>
 
-<h2>Hey, nice to meet you!</h2>
-
-<div class="left">
   <p>
-    I'm <strong>David Lemarier</strong> &lt;<a href="mailto:david@lemarier.ca">david@lemarier.ca</a>&gt;, also known as <code>phnz</code>, {{site.data.strings.about.me}}.
+    I'm <strong>David Lemarier</strong> &lt;<a href="mailto:david@lemarier.ca">david@lemarier.ca</a>&gt;, also known as <code>phnz</code>.
   </p>
+
   <p>
     I'm <span id="ageInYears"></span> years old<span id="ageInDays">.</span>
   </p>
@@ -37,40 +37,7 @@ class: about
   <p>
     I currently live in Victoriaville, Qu&eacute;bec, Canada.
   </p>
-  
-  <h2>Here are my latest blog posts:</h2>
-
-  <ul class="listing">
-    <li>
-      <a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a>
-      <time datetime="{{site.posts[0].date | date: "%Y-%m-%d"}}">
-        {{ site.posts[0].date | date: "%B %e, %Y" }}{% if site.posts[0].github %}.
-        Code on <a href="{{ site.posts[0].github }}">GitHub</a>.
-        {% endif %}
-      </time>
-    <li>
-    <li>
-      <a href="{{ site.posts[1].url }}">{{ site.posts[1].title }}</a>
-      <time datetime="{{site.posts[1].date | date: "%Y-%m-%d"}}">
-        {{ site.posts[1].date | date: "%B %e, %Y" }}{% if site.posts[1].github %}.
-        Code on <a href="{{ site.posts[1].github }}">GitHub</a>.
-        {% endif %}
-      </time>
-    <li>
-    <li>
-      <a href="{{ site.posts[2].url }}">{{ site.posts[2].title }}</a>
-      <time datetime="{{site.posts[2].date | date: "%Y-%m-%d"}}">
-        {{ site.posts[2].date | date: "%B %e, %Y" }}{% if site.posts[2].github %}.
-        Code on <a href="{{ site.posts[2].github }}">GitHub</a>.
-        {% endif %}
-      </time>
-    <li>
-  </ul>
 
 </div>
 
-<div class="right">
-  <img src="/images/d.jpg" alt="I am so handsome."/>
-  
-  {% include ad.html %}
-</div>
+{% include footer.html %}

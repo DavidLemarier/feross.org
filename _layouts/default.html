@@ -61,46 +61,25 @@
   <!-- End Google Tag Manager -->
 
 </head>
-<body class="{{ page.class }}">
+<body class="page-{{ page.class }}">
 
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWCQ4WF"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <div id="container">
+  {% include navigation.html %}
 
-    <header id="header">
-      <h1><a href="/">{% if page.class == "resume" %}David Lemarier{% else %}David{% endif %}</a></h1>
-    </header>
-
-    <section class="content clearfix">
-      {{ content }}
-    </section>
-
-    {% if page.class == "home" %}
-      <a href="https://github.com/DavidLemarier" id="github">Fork me on GitHub</a>
-    {% endif %}
-
-  </div>
-
-  <script src="/client/bundle.js"></script>
-
-  {% if page.demo %}
-    <!-- Page-specific demo code -->
-    {{ page.demo }}
+  {% if page.profile %}
+      {% include profile.html %}
   {% endif %}
 
-  {% if page.class == "post" %}
+  <section id="wrapper" class="{% if page.profile %}home{% endif %}">
+    {{ content }}
+  </section>
 
-    <!-- Facebook -->
-    <div id="fb-root"></div>
-    <script async id='facebook-jssdk' src='//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=515587071790188'></script>
-
-    <!-- Twitter -->
-    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-  {% endif %}
-
+  <script src="{{ site.baseurl }}client/bundle.js"></script>
 </body>
 </html>
+
+

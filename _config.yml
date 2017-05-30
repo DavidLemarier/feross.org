@@ -1,6 +1,36 @@
+name: Your New Jekyll Site
+description: Developer, sysadmin, OSX user and crypto lover
+
+aboutPage: true
+
+author: David Lemarier
+authorTwitter:  DavidLemarier
+
 exclude: [config.rb, nginx.conf, node_modules, package.json, README.md, supervisor.conf]
 markdown: rdiscount
-highlighter: true
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 20
 permalink: /:title/
 rdiscount:
   extensions: [smart]
+baseurl: /
+defaults:
+    - 
+      scope:
+        path: "" # empty string for all files
+        type: pages
+      values:
+        layout: default
+    - 
+      scope:
+        path: "" # empty string for all files
+        type: posts
+      values:
+        layout: post
+    - 
+      scope:
+        path: ""
+        type: drafts
+      values:
+        layout: post

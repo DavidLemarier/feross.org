@@ -1,0 +1,10 @@
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = 'https://lemarier.ca{{ page.url }}'
+  }
+  window.addEventListener('orientationchange', function () {
+    DISQUS.reset({ reload: true })
+  }, false)
+</script>
+<script async src="//lemarier-ca.disqus.com/embed.js"></script>
