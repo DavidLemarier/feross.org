@@ -8,12 +8,65 @@ class: about
 
 <div class="left">
   <p>
-    I'm <strong>David Lemarier</strong> &lt;<a href="mailto:david@lemarier.ca">david@lemarier.ca</a>&gt;, {{site.data.strings.about.me}}.
+    I'm <strong>David Lemarier</strong> &lt;<a href="mailto:david@lemarier.ca">david@lemarier.ca</a>&gt;, also known as <code>phnz</code>, {{site.data.strings.about.me}}.
   </p>
   <p>
     I'm <span id="ageInYears"></span> years old<span id="ageInDays">.</span>
   </p>
+
+  <p>
+    I'm a graduate of <a href="https://www.cde-college.com/">CDE Coll&egrave;ge</a> and I've worked at <a href="https://www.rhesus.net/">Rhesus</a> and <a href="http://www.reallysuccessful.com/">ReallySuccessful</a>.
+  </p>
   
+  <p>
+    September 2009 &mdash; I founded a company called Wasabi Technologie. I worked with many 7-figures Internet Marketers and I learned how to make money online.
+  </p>
+
+  <p>
+    December 2014 &mdash; With all the background acquired in the lasts years, <a href="https://vpn.ht">VPN.ht</a> was ready to be launched. It's been a long road but within 3 months, more than 20 000 customers was already subscribed.
+  </p>
+
+  <p>
+    In my free time, I work on <a href="https://github.com/DavidLemarier/SmartThingsPublic" title="SmartThingsPublic">SmartThings</a>, the easiest way to turn your home into a smart home.
+  </p>
+
+  <p>
+    My <a href="/resume/">resume</a> is available if you want to be all, like, formal and stuff, dude.
+  </p>
+
+  <p>
+    I currently live in Victoriaville, Qu&eacute;bec, Canada.
+  </p>
+  
+  <h2>Here are my latest blog posts:</h2>
+
+  <ul class="listing">
+    <li>
+      <a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a>
+      <time datetime="{{site.posts[0].date | date: "%Y-%m-%d"}}">
+        {{ site.posts[0].date | date: "%B %e, %Y" }}{% if site.posts[0].github %}.
+        Code on <a href="{{ site.posts[0].github }}">GitHub</a>.
+        {% endif %}
+      </time>
+    <li>
+    <li>
+      <a href="{{ site.posts[1].url }}">{{ site.posts[1].title }}</a>
+      <time datetime="{{site.posts[1].date | date: "%Y-%m-%d"}}">
+        {{ site.posts[1].date | date: "%B %e, %Y" }}{% if site.posts[1].github %}.
+        Code on <a href="{{ site.posts[1].github }}">GitHub</a>.
+        {% endif %}
+      </time>
+    <li>
+    <li>
+      <a href="{{ site.posts[2].url }}">{{ site.posts[2].title }}</a>
+      <time datetime="{{site.posts[2].date | date: "%Y-%m-%d"}}">
+        {{ site.posts[2].date | date: "%B %e, %Y" }}{% if site.posts[2].github %}.
+        Code on <a href="{{ site.posts[2].github }}">GitHub</a>.
+        {% endif %}
+      </time>
+    <li>
+  </ul>
+
 </div>
 
 <div class="right">
