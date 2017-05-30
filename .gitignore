@@ -5,3 +5,4 @@ css/main.css
 hacks/
 node_modules
 .DS_Store
+client/bundle.js
