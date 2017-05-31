@@ -2,14 +2,14 @@
     <section id="wrapper">
         <header id="header">
         {% if site.aboutPage %}
-            <a href="{{ site.baseurl }}about">
+            <a href="{{ site.baseurl }}david">
                 <img id="avatar" class="2x" src="{{ site.baseurl }}images/avatar.jpg"/>
             </a>
         {% else %}
             <img id="avatar" class="2x" src="{{ site.baseurl }}images/avatar.jpg"/>
         {% endif %}
-            <h1>{{ site.author }}</h1>
-            <h2>I'm {{site.data.strings.about.me}}.</h2>
+            <h1>{{ site.author.name }}</h1>
+            <h2>{{site.author.bio}}.</h2>
         </header>
     </section>
 </div>

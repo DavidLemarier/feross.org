@@ -2,19 +2,27 @@ name: Your New Jekyll Site
 description: Developer, sysadmin, OSX user and crypto lover
 
 aboutPage: true
+permalink: /:title/
+baseurl: /
+url: https://lemarier.ca
 
-author: David Lemarier
-authorTwitter:  DavidLemarier
+author: 
+  name: David Lemarier
+  pgp: B79C03F69557EC55
+  twitter:  DavidLemarier
+  bio: I'm a web developer, network administrator, OSX user, crypto lover and off-road enthusiast
 
 exclude: [config.rb, nginx.conf, node_modules, package.json, README.md, supervisor.conf]
+
 markdown: rdiscount
 highlighter: rouge
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
 paginate: 20
-permalink: /:title/
+
 rdiscount:
   extensions: [smart]
-baseurl: /
+
 defaults:
     - 
       scope:
