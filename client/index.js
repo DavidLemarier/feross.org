@@ -23,8 +23,8 @@ function retina () {
 
     $(image).attr('src', path)
   })
-  
-  // switch avatar as we use gravatar.com
+
+  // Switch avatar as we use gravatar.com
   var avatar = $('#avatar').attr('src')
   avatar = avatar.replace('s=80', 's=160')
   $('#avatar').attr('src', avatar)
