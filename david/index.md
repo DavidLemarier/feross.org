@@ -9,7 +9,7 @@ sitemap:
 ---
 # Nice to meet you.
 
-I'm <strong>David Lemarier</strong> &lt;<a href="mailto:david@lemarier.ca">david@lemarier.ca</a>&gt;, also known as phnz. <small>&mdash; [PGP Key](#pgp_key)</small>
+I'm **David Lemarier** <<a href="mailto:david@lemarier.ca">david@lemarier.ca</a>>, also known as phnz. <small>&mdash; [PGP Key](#pgp_key)</small>
 
 I'm <span id="ageInYears"></span> years old<span id="ageInDays">.</span> &mdash; I speak French and English.
 
@@ -17,11 +17,11 @@ I'm a graduate of <a href="https://www.cde-college.com/">CDE Coll&egrave;ge</a> 
   
 September 2009 &mdash; I founded a company called Wasabi Technologie. I worked with many 7-figures Internet Marketers and I learned how to make money online.
 
-December 2014 &mdash; With all the background acquired in the lasts years, <a href="https://vpn.ht">VPN.ht</a> was ready to be launched. It's been a long road but within 3 months, more than 20 000 customers was already subscribed.
+December 2014 &mdash; With all the background acquired in the lasts years, [VPN.ht](https://vpn.ht) was ready to be launched. It's been a long road but within 3 months, more than 20 000 customers was already subscribed.
 
-In my free time, I work on <a href="https://github.com/DavidLemarier/SmartThingsPublic" title="SmartThingsPublic">SmartThings</a>, the easiest way to turn your home into a smart home.
+In my free time, I work on [SmartThings](https://github.com/DavidLemarier/SmartThingsPublic), the easiest way to turn your home into a smart home.
 
-My <a href="/resume/">resume</a> is available if you want to be all, like, formal and stuff, dude.
+My [resume](/resume/) is available if you want to be all, like, formal and stuff, dude.
 
 I currently live in Victoriaville, Qu&eacute;bec.
 
