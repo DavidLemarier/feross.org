@@ -6,6 +6,7 @@ $sans-serif = "roboto", sans-serif;
 $fullWidth = 600px;
 $mainColor = #00bab8;
 $bgColor = #fff;
+$lightestGray = #EEE;
 $adColor = desaturate(darken($bgColor, 3%), 60%);
 
 /* Clearfix */
@@ -190,7 +191,21 @@ ul  { margin:0; padding:0; }
 li  { list-style-type:circle; list-style-position:inside; }
 
 /* Line Height */
-#post-body, p { line-height:1.7; }
+#post-body, p { 
+  line-height:1.7; 
+
+}
+
+p {
+  code {
+    font-size: 12px;
+    background-color: $lightestGray;
+    border: 1px solid $lightGray;
+    border-radius: 3px;
+    padding: 2px 4px;
+    white-space: nowrap;
+  }
+}
 
 b, strong { font-weight: 500;
   color: #1E2025; }
@@ -649,4 +664,12 @@ h2.month {
   .post h2.headline { font-size: 13px; }
   .post h1 { font-size:24px; }
   .post h2 { font-size:20px; }
+
+  .post h2.headline:after{
+    content:none
+  }
+
+  .post .views {
+    display: none !important
+  }
 }
