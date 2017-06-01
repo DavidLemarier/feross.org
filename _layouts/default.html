@@ -12,22 +12,19 @@
   you do. If you haven't found it yet, keep looking. Don't settle. 
   As with all matters of the heart, you'll know when you find it.
 
-                                                  — Steve Jobs
+                                                      — Steve Jobs
   -->
-  {% capture meta_desc %}{% if page.summary %}{{ page.summary }}{% else %}David Lemarier is {{site.data.strings.about.me}}.{% endif %}{% endcapture %}
+
+  {% capture meta_desc %}{% if page.summary %}{{ page.summary }}{% else %}{{ site.author.bio }}{% endif %}{% endcapture %}
   <title>{{ page.title }} &raquo; lemarier.ca</title>
   <meta property="og:title" content="{{ page.title }} &raquo; Lemarier.ca" />
-
   <meta name="description" content="{{ meta_desc }}">
   <meta property="og:description" content="{{ meta_desc }}" />
-
   <meta property="og:type" content="article" />
   {% if page.tags %}{% for tag in page.tags %}<meta property="article:tag" content="{{ tag | replace: '-', ' ' }}" />{% endfor %}{% endif %}
   <meta property="og:image" content="https://lemarier.ca/images/d.jpg" />
-
   <meta property="article:author" content="https://lemarier.ca/about/" />
- <link rel="author" href="https://plus.google.com/102110452828825334035" />
-
+  <link rel="author" href="https://plus.google.com/102110452828825334035" />
   {% if page.class == "post" %}
   <link rel="canonical" href="https://lemarier.ca{{ page.url }}" />
   <meta property="og:url" content="https://lemarier.ca{{ page.url }}" />
@@ -35,30 +32,26 @@
   <link rel="canonical" href="https://lemarier.ca/" />
   <meta property="og:url" content="https://lemarier.ca/" />
   {% endif %}
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00bab8">
   <meta name="msapplication-TileColor" content="#00bab8">
-  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="msapplication-TileImage" content="/images/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
-
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#00bab8">
+  <link rel="manifest" href="/manifest.json">
   <link rel="alternate" type="application/atom+xml" title="Lemarier.ca" href="https://lemarier.ca/atom.xml" />
-
   <link rel="stylesheet" href="/css/main.css" />
 
   <script src="https://use.typekit.net/lih0ybc.js"></script>
@@ -71,8 +64,8 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MWCQ4WF');</script>
   <!-- End Google Tag Manager -->
-
 </head>
+
 <body class="page-{{ page.class }}">
 
   <!-- Google Tag Manager (noscript) -->
@@ -83,15 +76,17 @@
   {% include navigation.html %}
 
   {% if page.profile %}
-      {% include profile.html %}
+    {% include profile.html %}
   {% endif %}
 
   <section id="wrapper" class="{% if page.profile %}home{% endif %}">
     {{ content }}
   </section>
 
+  <a href="https://github.com/{{ site.author.github }}" class="github-corner" rel="nofollow" aria-label="Fork me - {{ site.author.name }}">
+    <svg width="120" height="120" viewBox="0 0 250 250" style="fill:#00bab8; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg>
+  </a>
   <script src="{{ site.baseurl }}client/bundle.js"></script>
+
 </body>
 </html>
-
-

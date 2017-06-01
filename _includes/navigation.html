@@ -1,11 +1,13 @@
 <nav class="main-nav">
-    {% if page.url != "/" %}
-        <a href="{{ site.baseurl }}"> <span class="arrow">&larr;</span> Home </a>
-    {% endif %}
 
-    {% if page.url != "/david/" %}
-        <a href="{{ site.baseurl }}david">About </a>
-    {% endif %}
+  {% if page.url != "/" %}
+  <a href="{{ site.baseurl }}"> <span class="arrow">&larr;</span> Home </a>
+  {% endif %}
 
-    <a class="cta" href="{{ site.baseurl }}atom.xml">Subscribe</a>
+  {% if page.url != "/david/" %}
+  <a href="{{ site.baseurl }}david">About </a>
+  {% endif %}
+  
+  <a class="cta" href="{{ site.baseurl }}atom.xml">Subscribe</a>
+  
 </nav>
