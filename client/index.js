@@ -26,7 +26,7 @@ function retina () {
 
   // Switch avatar as we use gravatar.com
   var avatar = $('#avatar').attr('src')
-  avatar = avatar.replace('s=80', 's=160')
+  avatar = avatar.replace('s=120', 's=240')
   $('#avatar').attr('src', avatar)
 };
 
