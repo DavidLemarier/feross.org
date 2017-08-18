@@ -142,7 +142,8 @@ h2 {
 }
 
 .health-kit dt:first-of-type {
- padding-right: 5px;
+ padding: 5px;
+ animation: .8s infinite beatHeart;
 }
 
 .health-kit dd:first-of-type:after {
@@ -763,5 +764,24 @@ h2.month {
   .github-corner svg {
     width: 60px;
     height: 60px;
+  }
+}
+
+
+@keyframes beatHeart {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
   }
 }
