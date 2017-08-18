@@ -23,19 +23,16 @@ I host the actual site on my own server, since I have a Jekyll plugin (and GitHu
 
 ## Deploying
 
-To be completed
+```bash
+yarn deploy
+```
 
 ## Install prerequisites
 
 ```bash
-npm install
+yarn install
 brew install gsl
 sudo gem install jekyll
 sudo gem install narray
 sudo gem install gsl
 ```
-
-## The blog design
-
-To be changed
-
