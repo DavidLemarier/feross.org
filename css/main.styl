@@ -113,7 +113,46 @@ h2 {
     margin-top: 10px;
     font-family: $sans-serif;
     font-style: normal;
+}
 
+.profile h3 {
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #bbb;
+    margin-top: 10px;
+    margin-bottom:5px;
+    font-family: $sans-serif;
+    font-style: normal;
+}
+
+.health-kit {
+  margin-top:0;
+  display:none;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #aaa
+}
+
+.health-kit dd {
+    display: inline-block;
+    margin: 0 0 8px 0;
+    position: relative;
+    font-style: italic;
+}
+
+.health-kit dt:first-of-type {
+ padding-right: 5px;
+}
+
+.health-kit dd:first-of-type:after {
+padding-left: 10px;
+ content: "\2022"
+}
+
+.health-kit dt {
+    display: inline-block;
+    margin: 8px 0 0 0;
 }
 
 nav.main-nav {
@@ -191,8 +230,8 @@ ul  { margin:0; padding:0; }
 li  { list-style-type:circle; list-style-position:inside; }
 
 /* Line Height */
-#post-body, p { 
-  line-height:1.7; 
+#post-body, p {
+  line-height:1.7;
 
 }
 
@@ -649,9 +688,9 @@ h2.month {
   fill:#00bab8;
   color:#fff;
   position: absolute;
-  top: 0; 
-  border: 0; 
-  left: 0; 
+  top: 0;
+  border: 0;
+  left: 0;
   transform: scale(-1, 1);
 }
 
@@ -663,23 +702,23 @@ h2.month {
   0% {
     transform: rotate(0deg);
   }
-  
+
   20% {
     transform: rotate(-25deg);
   }
-  
+
   40% {
     transform: rotate(10deg);
   }
-  
+
   60% {
    transform: rotate(-25deg);
   }
-  
+
   80% {
     transform: rotate(10deg);
   }
-  
+
   100% {
     transform: rotate(0deg);
   }
