@@ -1,11 +1,11 @@
 # [Home of David Lemarier](https://lemarier.ca) [![travis][travis-image]][travis-url]
 
-[travis-image]: https://img.shields.io/travis/DavidLemarier/lemarier.ca.svg?style=flat
-[travis-url]: https://travis-ci.org/DavidLemarier/lemarier.ca
+[travis-image]: https://img.shields.io/travis/lemarier/lemarier.ca.svg?style=flat
+[travis-url]: https://travis-ci.org/lemarier/lemarier.ca
 
 Copyright (c) David Lemarier
 
-Hi, I'm David Lemarier and this is the source code for my blog, [https://lemarier.ca](https://lemarier.ca). Feel free to browse the source, fork, and [ask me questions](https://twitter.com/DavidLemarier).
+Hi, I'm David Lemarier and this is the source code for my blog, [https://lemarier.ca](https://lemarier.ca). Feel free to browse the source, fork, and [ask me questions](https://twitter.com/lemarierd).
 
 
 ## How it's built

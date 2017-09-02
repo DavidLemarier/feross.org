@@ -14,7 +14,7 @@ Hi ! I'm **David Lemarier** <<a href="mailto:david@lemarier.ca">david@lemarier.c
 I'm <span id="ageInYears"></span> years old<span id="ageInDays">.</span> &mdash; I speak French and English.
 
 I'm a graduate of <a href="https://www.cde-college.com/">CDE Coll&egrave;ge</a> and I've worked at <a href="https://www.rhesus.net/">Rhesus</a> and <a href="http://www.reallysuccessful.com/">ReallySuccessful</a>.
-  
+
 _2009_ &mdash; I founded a company called _Wasabi Technologie_. I worked with many 7-figures Internet Marketers and I learned how to make money online.
 
 _2014_ &mdash; With all the background acquired in the lasts years, [VPN.ht](https://vpn.ht) was ready to be launched. It's been a long road but within 3 months, more than 20 000 customers was already subscribed.
@@ -23,7 +23,7 @@ _2016_ &mdash; I've left the VPN.ht organization to works on new projects and to
 
 _2017_ &mdash; Many projects are on the table right now, in different niche. I'm actually working on some e-commerce apps. <small>&mdash; to be announced</small>
 
-In my free time, I work on [SmartThings](https://github.com/DavidLemarier/SmartThingsPublic), the easiest way to turn your home into a smart home.
+In my free time, I work on [SmartThings](https://github.com/lemarier/SmartThingsPublic), the easiest way to turn your home into a smart home.
 
 My [resume](/resume/) is available if you want to be all, like, formal and stuff, dude.
 
@@ -35,7 +35,7 @@ I currently live in _Victoriaville, Qu&eacute;bec_.
 <a name="pgp_key"></a>
 If you want to whisper sweet nothings in my ear, here's my PGP key. Also, please be aware that I read encrypted email on a `non-network-connected machine`, so this will add a certain amount of latency to any replies to encrypted mail.
 
-Type | Hash 
+Type | Hash
 ----------  | ----------
 Fingerprint | A5A5C0A25E6FB450004DE2CEB79C03F69557EC55
 64-bit | B79C03F69557EC55

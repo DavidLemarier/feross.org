@@ -4,11 +4,11 @@ permalink: /:title/
 baseurl: /
 url: https://lemarier.ca
 
-author: 
+author:
   name: David Lemarier
   pgp: B79C03F69557EC55
-  twitter:  DavidLemarier
-  github: DavidLemarier
+  twitter:  lemarierd
+  github: lemarier
   bio: I'm a web developer, network administrator, OSX user, crypto lover, off-road enthusiast and BBQ pitmaster.
   gravatar: 8a28146189fb92246a519124f61e60ce
 
@@ -24,19 +24,19 @@ rdiscount:
   extensions: [smart]
 
 defaults:
-    - 
+    -
       scope:
         path: "" # empty string for all files
         type: pages
       values:
         layout: default
-    - 
+    -
       scope:
         path: "" # empty string for all files
         type: posts
       values:
         layout: post
-    - 
+    -
       scope:
         path: ""
         type: drafts

@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "author": "David Lemarier <david@lemarier.ca> (https://lemarier.ca)",
   "bugs": {
-    "url": "https://github.com/DavidLemarier/www.lemarier.ca/issues"
+    "url": "https://github.com/lemarier/www.lemarier.ca/issues"
   },
   "dependencies": {
     "add-commas": "0.0.4",
@@ -31,7 +31,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DavidLemarier/www.lemarier.ca.git"
+    "url": "https://github.com/lemarier/www.lemarier.ca.git"
   },
   "scripts": {
     "build": "rm -rf _site && npm run build-css && npm run build-js && npm run build-hacks && npm run build-html",
