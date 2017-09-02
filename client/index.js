@@ -39,21 +39,19 @@ function retina () {
 
 $(document).ready(function () {
   // If this is homepage, get view count for all posts
-  if ($('body').hasClass('page-')) {
-    $.ajax({
-      type: 'GET',
-      url: 'https://gyroscope.lemarier.sh/',
-      dataType: 'json',
-      success: function (data) {
-        $('.health-kit .bpm').text(data.heartRate + ' ' + data.heartRateUnits)
-        $('.health-kit .kms').text(data.kms + ' kms')
-        $('.health-kit').show()
-      },
-      error: function (data) {
-        $('.health-kit').hide()
-      }
-    })
-  }
+  $.ajax({
+    type: 'GET',
+    url: 'https://gyroscope.lemarier.sh/',
+    dataType: 'json',
+    success: function (data) {
+      $('.health-kit .bpm').text(data.heartRate + ' ' + data.heartRateUnits)
+      $('.health-kit .kms').text(data.kms + ' kms')
+      $('.health-kit').show()
+    },
+    error: function (data) {
+      $('.health-kit').hide()
+    }
+  })
 
   // If this is a post, get post view count
   if ($('body').hasClass('page-post')) {
